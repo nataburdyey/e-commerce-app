@@ -6,7 +6,7 @@ import aboutImg from "../assets/hero-bcg.jpeg";
 const AboutPage = () => {
   return (
     <main>
-      <PageHero title="about"/>
+      <PageHero title="about" />
       <Wrapper className="page section section-center">
         <img src={aboutImg} alt="nice desk" />
         <article>
@@ -14,13 +14,13 @@ const AboutPage = () => {
             <h2>Our Story</h2>
             <div className="underline"></div>
             <p>
-              From humble beginnings, our comfy furniture rose to fame,
-              conquering living rooms one cozy seat at a time. Join our comfort
-              revolution and claim your spot in history!
-            </p>
-            <p>
-              Sit on our comfy furniture and experience a sensation so heavenly,
-              you'll think clouds went into the furniture-making business!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium provident cum consequuntur, dolorum pariatur iusto
+              minus, cumque recusandae deleniti quam dolor. Natus soluta sit
+              obcaecati culpa facilis? Quia in dolorum sed sapiente excepturi
+              blanditiis sunt. Non ex, fugiat, quibusdam adipisci et earum
+              excepturi exercitationem, optio vel aliquam veritatis reiciendis?
+              Maxime!
             </p>
           </div>
         </article>
