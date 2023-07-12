@@ -21,7 +21,7 @@ const initialState = {
   featured_products: [],
   single_product: [],
   single_product_loading: false,
-  single_product_error: false
+  single_product_error: false,
 };
 
 const ProductsContext = React.createContext();
@@ -66,7 +66,9 @@ export const ProductsProvider = ({ children }) => {
   }, []);
 
   return (
-    <ProductsContext.Provider value={{ ...state, openSidebar, closeSidebar }}>
+    <ProductsContext.Provider
+      value={{ ...state, openSidebar, closeSidebar, fetchSingleProduct }}
+    >
       {children}
     </ProductsContext.Provider>
   );
