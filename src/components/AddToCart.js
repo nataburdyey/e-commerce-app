@@ -6,7 +6,7 @@ import { useCartContext } from '../context/cart_context'
 import AmountButtons from './AmountButtons'
 
 const AddToCart = () => {
-  return <h4>addToCart </h4>
+  return <Wrapper>addToCart </Wrapper>
 }
 
 const Wrapper = styled.section`
