@@ -50,7 +50,8 @@ const AddToCart = ({ product }) => {
             );
           })}
         </div>
-        <div className="btn-container"></div>
+      </div>
+      <div className="btn-container">
         <AmountButtons
           amount={amount}
           increase={increase}
