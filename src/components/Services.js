@@ -8,27 +8,26 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <h3>
-            Custom Furniture <br />
-            built only for you
+            Custom Furniture <br /> built only for you
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-            eligendi nulla? Odio ipsa provident quaerat dolorum officia magnam
-            ea repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum debitis consectetur reprehenderit non aliquam voluptates
+            dolore aut vero consequuntur.
           </p>
-          <div className="services-center">
-            {services.map((service) => {
-              const { id, icon, title, text } = service;
-              return (
-                <article className="service" key={id}>
-                  <span className="icon">{icon}</span>
-                  <h4>{title}</h4>
-                  <p>{text}</p>
-                </article>
-              );
-            })}
-          </div>
         </article>
+        <div className="services-center">
+          {services.map((service) => {
+            const { id, icon, title, text } = service;
+            return (
+              <article className="service" key={id}>
+                <span className="icon">{icon}</span>
+                <h4>{title}</h4>
+                <p>{text}</p>
+              </article>
+            );
+          })}
+        </div>
       </div>
     </Wrapper>
   );
