@@ -8,10 +8,10 @@ const Hero = () => {
   return (
     <Wrapper className="section-center">
       <article className="content">
-        <h1>
-          Design your <br />
-          comfort zone
-        </h1>
+        <h2>
+          Where Comfort <br />
+          Meets Style
+        </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
           facere, id voluptas libero natus asperiores porro quidem ratione non
@@ -22,8 +22,8 @@ const Hero = () => {
         </Link>
       </article>
       <article className="img-container">
-        <img src={heroBcg} alt="nice table" className="main-img"/>
-        <img src={heroBcg2} alt="person working" className="accent-img"/>
+        <img src={heroBcg} alt="nice table" className="main-img" />
+        <img src={heroBcg2} alt="person working" className="accent-img" />
       </article>
     </Wrapper>
   );

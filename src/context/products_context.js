@@ -19,7 +19,7 @@ const initialState = {
   products_error: false,
   products: [],
   featured_products: [],
-  single_product: [],
+  single_product: {},
   single_product_loading: false,
   single_product_error: false,
 };
@@ -73,7 +73,7 @@ export const ProductsProvider = ({ children }) => {
     </ProductsContext.Provider>
   );
 };
-// make sure use
+
 export const useProductsContext = () => {
   return useContext(ProductsContext);
 };
